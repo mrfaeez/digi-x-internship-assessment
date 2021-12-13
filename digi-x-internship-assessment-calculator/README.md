@@ -10,3 +10,6 @@ Solution Steps:
 2. Fix expression `screen.value += answer` to `screen.value = answer` at line line 11 in *app.js*
 
 **ALERT** - This is not the best practice since `eval()` method is used. The method is used to execute expression in Javascript (despite being string). The method has a big security risk because it can be exploited by running malicious code using the method. Source: [w3schools - JavasSript eval()](https://www.w3schools.com/jsref/jsref_eval.asp)
+
+
+Hosted at: [Calculator](https://digi-x.mangodev.com.my/calculator/)
