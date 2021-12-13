@@ -8,7 +8,7 @@
   buttons.forEach(function(button){
     button.addEventListener('click', function(e){
       let value = e.target.dataset.num;
-      screen.value = value;
+      screen.value += value; // add value here with expression 'screen.value + value = value' instead of assigning it
     })
   });
   
@@ -17,7 +17,7 @@
       screen.value = 'Please Enter a Value';
     } else {
       let answer = eval(screen.value);
-      screen.value += answer;
+      screen.value = answer; // since eval() is used, we can executes a string expression. Remove the + symbol and just assign answer to the screen.value() to show answer
     }
   })
   
