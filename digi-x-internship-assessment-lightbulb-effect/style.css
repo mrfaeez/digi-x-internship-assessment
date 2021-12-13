@@ -19,3 +19,7 @@
     background: url('lighton.png') no-repeat;;
     margin: auto;
 }
+
+#bulb {
+    cursor: pointer;
+}
